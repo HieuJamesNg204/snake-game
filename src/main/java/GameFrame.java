@@ -1,4 +1,5 @@
 import javax.swing.*;
+import java.util.Objects;
 
 public class GameFrame extends JFrame {
     public GameFrame() {
@@ -10,7 +11,7 @@ public class GameFrame extends JFrame {
         this.setVisible(true);
         this.setLocationRelativeTo(null);
 
-        ImageIcon img = new ImageIcon("public/snake.png");
+        ImageIcon img = new ImageIcon(Objects.requireNonNull(getClass().getResource("/snake.png")));
         this.setIconImage(img.getImage());
     }
 }
