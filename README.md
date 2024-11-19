@@ -17,7 +17,7 @@ Welcome to the classic Snake Game! This is a simple yet addictive game where you
 
 ## How to Download and Run
 1. **Download the Executable:**
-   - Go to the [Snake Game Download Page](https://drive.google.com/drive/u/0/folders/1Jud1VndZtYAGKHySv8FiWY0reKi0aHUS).
+   - Go to the [Place to Download Snake Game](https://drive.google.com/drive/u/0/folders/1Jud1VndZtYAGKHySv8FiWY0reKi0aHUS).
    - Click on the `snake_game.exe` file to download it.
 
 2. **Run the Game:**
