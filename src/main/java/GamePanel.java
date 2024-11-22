@@ -129,7 +129,7 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener {
         }
 
         // Checks if head collides with borders
-        if (x[0] < 0 || x[0] > SCREEN_WIDTH || y[0] < 0 || y[0] > SCREEN_HEIGHT) {
+        if (x[0] < 0 || x[0] >= SCREEN_WIDTH || y[0] < 0 || y[0] >= SCREEN_HEIGHT) {
             running = false;
         }
 
